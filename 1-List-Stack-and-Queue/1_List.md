@@ -97,7 +97,7 @@ public class Main {
 | removeFirst() | Menghapus elemen di indeks pertama (indeks ke- 0) |
 | removeLast()  | Menghapus elemen di indeks terakhir               |
 | getFirst()    | Mengakses elemen di indeks pertama (indeks ke- 0) |
-| getLast()     | Mengakses elemen di indeks                        |
+| getLast()     | Mengakses elemen di indeks terakhir               |
 
 ## Selengkapnya
 
