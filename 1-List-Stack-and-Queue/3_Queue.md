@@ -16,7 +16,7 @@ import java.util.Queue;
 
 public class main {     
   public static void main (String[] args) {   
-    Queue<Integer> namaQueue = new LinkedList<>(); // membuat object dari kelas Stack
+    Queue<Integer> namaQueue = new LinkedList<>(); // membuat object dari kelas Linked List yang mengimplementasikan interface Queue
   }
 }
 ```
