@@ -1,4 +1,4 @@
-# 3 Konsep Queue
+# 3. Konsep Queue
 
 Queue merupakan proses menyimpan dan memproses data dalam urutan FIFO (First-In-First-Out). Queue adalah daftar objek yang diurutkan secara terbatas untuk menyisipkan elemen di akhir daftar dan menghapus elemen dari awal daftar.
 
