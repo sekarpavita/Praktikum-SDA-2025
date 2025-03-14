@@ -1,4 +1,4 @@
-# 2 Konsep Stack
+# 2. Konsep Stack
 
 Stack adalah struktur data linear yang digunakan untuk menyimpan koleksi objek. Struktur ini didasarkan pada Last-In-First-Out (LIFO). Struktur data stack memiliki
 dua operasi yang paling penting, yaitu push dan pop. Operasi push menyisipkan elemen ke dalam stack dan operasi pop menghapus elemen dari bagian atas stack.
