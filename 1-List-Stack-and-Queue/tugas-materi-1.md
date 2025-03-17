@@ -4,11 +4,11 @@ NOTE
 
 1. Gunakan bahasa **Java**
 2. Kumpulkan semua source code pada assignment Google Classroom **(tidak usah di-ZIP)**, diberi format: 
-PSDA01_L0122190_JohnDoe-1.java 9 (untuk list)
-PSDA01_L0122190_JohnDoe-2.java 9 (untuk stack)
-PSDA01_L0122190_JohnDoe-3.java 9 (untuk queue)
+    - PSDA01_L0122190_JohnDoe-1.java 9 (untuk list)
+    - PSDA01_L0122190_JohnDoe-2.java 9 (untuk stack)
+    - PSDA01_L0122190_JohnDoe-3.java 9 (untuk queue)
 3. Kumpulkan pdf berisi penjelasan setiap code *(1 pdf saja)* pada assignment Google Classroom, diberi format:
-PSDA01_L0122190_JohnDoe.pdf
+    - PSDA01_L0122190_JohnDoe.pdf
 4. Jika ada pertanyaan, silakan bertanya kepada asisten
 5. Deadline: 24 Maret 2025
 8. Anda dapat menggunakan library Java yang sudah ada (seperti ArrayList, LinkedList, Stack, Queue)
