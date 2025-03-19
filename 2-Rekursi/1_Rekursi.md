@@ -87,10 +87,10 @@ Pada **pendekatan kedua**, pada masing-masing `n`, fungsi akan memanggil dirinya
 
 ## Kelebihan dan Kekurangan
 
-| Kelebihan                                                                                    | Kekurangan                                                                                                                      |
-| -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Rekursi menyediakan cara yang bersih dan sederhana untuk menulis kode.                       | Program rekursif memiliki kebutuhan ruang yang besar karena semua fungsi akan tetap berada di stack sampai kasus dasar tercapai.|
-| Beberapa masalah pada dasarnya bersifat rekursif, untuk itu lebih baik menulis kode rekursif.| Program rekursif juga memiliki kebutuhan waktu yang lebih besar karena pemanggilan fungsi dan pengembalian overhead.            |
+| Kelebihan                                                                                                      | Kekurangan                                                                                                     |
+| -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Rekursi menyediakan cara yang bersih dan sederhana untuk menulis kode.                                         | Program rekursif memiliki kebutuhan ruang yang besar karena semua fungsi akan tetap berada di stack sampai kasus dasar tercapai.|
+| Beberapa masalah pada dasarnya bersifat rekursif, untuk itu lebih baik menulis kode rekursif.                  | Program rekursif juga memiliki kebutuhan waktu yang lebih besar karena pemanggilan fungsi dan pengembalian overhead.            |
 
 ## Selengkapnya
 
