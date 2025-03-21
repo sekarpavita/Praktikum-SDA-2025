@@ -20,8 +20,7 @@ Jika penjelasan di atas kurang dapat dimengerti, perhatikan potongan kode di baw
 
 ```Java
 // Potongan 1
-Integer a = 0;
-while (a = 0) {
+while (true) {
     doSomething();
 }
 
