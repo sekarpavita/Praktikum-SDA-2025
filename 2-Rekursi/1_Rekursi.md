@@ -93,4 +93,5 @@ Pada **pendekatan kedua**, pada masing-masing `n`, fungsi akan memanggil dirinya
 
 ## Selengkapnya
 
+- [Materi tentang Rekursi](https://github.com/salsarizkii/Praktikum-Dasar-Pemrograman-2024/blob/main/Bab%203-CFunction/4-Rekursi.md)
 - [GeeksForGeeks](https://www.geeksforgeeks.org/recursion/)
