@@ -32,7 +32,7 @@ while (i < 5) {
 }
 ```
 
-Pada potongan pertama, perulangan `while` akan terus dieksekusi karena nilai variabel `a` tidak akan berubah. Alhasil, apapun yang berada dalam blok perulangan `while` tersebut akan dieksekusi tanpa henti. Namun, pada potongan kedua, perulangan yang sama dieksekusi dengan batas, yaitu `i < 5`, sehingga perulangan tersebut hanya dilakukan 5 kali. Ini merupakan sebuah konsep yang cukup mirip dengan Base Case di fungsi rekursif, tetapi dengan detail yang sedikit berbeda. Perhatikan contoh di bawah ini.
+Pada potongan pertama, perulangan `while` akan terus dieksekusi karena tidak terdapat batasan. Alhasil, apapun yang berada dalam blok perulangan `while` tersebut akan dieksekusi tanpa henti. Namun, pada potongan kedua, perulangan yang sama dieksekusi dengan batas, yaitu `i < 5`, sehingga perulangan tersebut hanya dilakukan 5 kali. Ini merupakan sebuah konsep yang cukup mirip dengan Base Case di fungsi rekursif, tetapi dengan detail yang sedikit berbeda. Perhatikan contoh di bawah ini.
 
 ```
 f(n) = n + f(n-1)   untuk n > 1
