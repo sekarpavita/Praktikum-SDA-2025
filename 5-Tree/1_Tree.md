@@ -21,7 +21,7 @@ Kita bisa melihat bahwa root dari Tree di atas adalah node 2 yang paling atas, y
 
 Sebagai sebuah struktur data, Tree memiliki beberapa operasi yang dapat digunakan untuk memanipulasi data yang disimpan didalamnya. Operasi-operasi tersebut adalah `insertion`, `deletion`, dan `traversal`
 
-Sebelum membuat operasi-operasi tersebut, kita harus membuat struktur data Tree kita terlebih dahulu, karena C++ tidak memiliki struktur Tree bawaan. Implementasi Tree dapat dilakukan dengan berbagai cara, misalkan menggunakan class dan pointer untuk menandakan hubungan. Namun, kita akan menggunakan struct untuk menyimpan data dan vector untuk menyimpan children-children dari Tree kita.
+Sebelum membuat operasi-operasi tersebut, kita harus membuat struktur data Tree kita terlebih dahulu, karena java sudah menyediakan functionnya, kita bisa langsung pakai saja
 
 ```Java
 import java.util.ArrayList;
