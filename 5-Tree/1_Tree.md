@@ -75,11 +75,13 @@ public static void main (String[] args) {
 ```
 
 Sehingga struktur Tree-nya menjadi berikut:
+```
         5
       /   \
      7     5
    /  \     \
   2   10     6
+```
 
 ### 1.2.2 Deletion
 
