@@ -18,6 +18,14 @@ Pada dasarnya, matriks ketetanggaan memanfaatkan konsep yang mirip dengan array 
 #### Contoh:
 
 ```java
+public enum Tempat {
+    RUMAH,
+    UNIVERSITAS_SEBELAS_MARET,
+    RUMAH_SAKIT_DR_MOEWARDI,
+    SMA_NEGERI_3_SURAKARTA,
+    PECEL_MADIUN_PUCANGSAWIT
+}
+
 public class GrafMatrix {
     public static void main(String[] args) {
         int jumlahTempat = Tempat.values().length;
