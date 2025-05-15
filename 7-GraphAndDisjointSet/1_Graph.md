@@ -1,19 +1,17 @@
-# Graph di Java
-
-## 1. Konsep Dasar Graph
+# 1. Graph
 
 **Graph** adalah suatu struktur data yang mendefinisikan hubungan antara suatu data dengan data lainnya. Suatu graf terdiri dari sekumpulan **simpul (node)** dan **sisi (edge)** yang menghubungkan antara simpul-simpul tersebut. 
 
-### 1.1 Jenis Graph
+## 1.1. Jenis Graph
 
 * **Graf berarah (Directed Graph):** Setiap edge memiliki arah.
   ![Ilustrasi Graf Berarah](https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Bab7-GraphAndDisjointSet/img/directed-graph.png)
 * **Graf tak berarah (Undirected Graph):** Edge tidak memiliki arah.
   ![Ilustrasi Graf Tidak Berarah](https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Bab7-GraphAndDisjointSet/img/undirected-graph.png)
 
-## 2. Implementasi
+## 1.2 Implementasi
 
-### 2.1 Adjacency Matrix (Matriks Ketetanggaan)
+### 1.2.1 Adjacency Matrix (Matriks Ketetanggaan)
 
 Pada dasarnya, matriks ketetanggaan memanfaatkan konsep yang mirip dengan array dua dimensi yang merepresentasikan simpul-simpul dalam suatu graf.
 
@@ -45,7 +43,7 @@ public class GrafMatrix {
 }
 ```
 
-### 2.2 Adjacency List (Daftar Ketetanggaan)
+### 1.2.2 Adjacency List (Daftar Ketetanggaan)
 
 Daftar ketetanggaan adalah salah satu cara lain untuk merepresentasikan sebuah graf. Pada dasarnya, daftar ketetanggaan adalah sebuah array yang berisi semua simpul dalam graf, dan setiap elemennya berisi daftar tetangga serta sisi yang terhubung.
 
@@ -85,7 +83,7 @@ public class GrafList {
 }
 ```
 
-### 2.3 Edge List (Daftar Sisi)
+### 1.2.3 Edge List (Daftar Sisi)
 
 Daftar sisi juga dapat digunakan untuk merepresentasikan sebuah graf. Pada dasarnya, daftar sisi adalah sebuah list yang berisi semua sisi dalam graf.
 
@@ -122,7 +120,7 @@ public class GrafEdgeList {
 }
 ```
 
-## 4. Perbandingan Kompleksitas
+## 1.4 Perbandingan Kompleksitas
 
 | Operasi               | Matriks | Daftar | Edge List |
 | --------------------- | ------- | ------ | --------- |
@@ -136,7 +134,7 @@ public class GrafEdgeList {
 * **E** = jumlah sisi (edge)
 * **K** = jumlah tetangga dari simpul tertentu
 
-## 5. Kesimpulan
+## 1.5 Kesimpulan
 
 * Gunakan **Adjacency Matrix** jika jumlah simpul kecil dan sering mengecek koneksi antar node.
 * Gunakan **Adjacency List** jika graf besar dan ingin efisien dalam memori serta fleksibel dalam traversal.
