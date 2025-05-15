@@ -11,7 +11,7 @@
 * **Graf tak berarah (Undirected Graph):** Edge tidak memiliki arah.
   ![Ilustrasi Graf Tidak Berarah](https://github.com/Alfurqon02/Praktikum-SDA-2023/blob/main/Bab7-GraphAndDisjointSet/img/undirected-graph.png)
 
-## 2. Representasi Graph di Java
+## 2. Implementasi
 
 ### 2.1 Adjacency Matrix (Matriks Ketetanggaan)
 
