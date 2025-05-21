@@ -43,7 +43,7 @@ static void printArray(int[] arr){
 }
 
 public static void main(String[] args){
-    int[] arr = { 4, 1, 2, 3 };
+    int[] arr = { 7, 2, 8, 1, 4 };
 
     selectionSort(arr);
     System.out.print("Sorted array: ");
@@ -54,19 +54,20 @@ public static void main(String[] args){
 Proses Selection Sort:
 ```
 Iterasi 1:
-[4  2  3  1]
- 1  2  3  4
+[7  2  8  1  4]
+ 1  2  8  7  4]
 
 Iterasi 2:
- 1 [2  3  4]
- 1  2  3  4
+ 1 [2  8  7  4]
+ 1  2  8  7  4
 
 Iterasi 3:
- 1  2 [3  4]
- 1  2  3  4
+ 1  2 [8  7  4]
+ 1  2  4  7  8
 
 Iterasi 4:
- 1  2  3  4
+ 1  2  4 [7  8]
+ 1  2  4  7  8
 
-Hasil akhir -> 1, 2, 3, 4
+Hasil akhir -> 1, 2, 4, 7, 8
 ```
