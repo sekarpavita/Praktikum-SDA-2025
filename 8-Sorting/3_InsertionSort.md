@@ -16,7 +16,7 @@ Insertion sort adalah algoritma pengurutan sederhana yang bekerja dengan membagi
 
 ## Contoh Penerapan
 ```java
-void insertionSort(int[] arr) {
+static void insertionSort(int[] arr) {
     int n = arr.length;
 
     for (int i = 1; i < n; ++i) {
