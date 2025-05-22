@@ -17,7 +17,7 @@ Bubble sort adalah algoritma pengurutan sederhana yang bekerja dengan membanding
 berikut source code untuk menerapkan bubble sort pada array [4, 1, 2, 3]
 
 ```java
-static void bubbleSort(int arr[], int n){
+static void bubbleSort(int[] arr, int n){
     int i, j, temp;
 
     for (i = 0; i < n - 1; i++) {
