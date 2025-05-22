@@ -55,7 +55,7 @@ Proses Selection Sort:
 ```
 Iterasi 1:
 [7  2  8  1  4]
- 1  2  8  7  4]
+ 1  2  8  7  4
 
 Iterasi 2:
  1 [2  8  7  4]
