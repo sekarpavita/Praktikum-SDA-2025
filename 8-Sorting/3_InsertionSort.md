@@ -32,6 +32,14 @@ void insertionSort(int arr[]) {
     }
 }
 
+static void printArray(int[] arr){
+    for (int val : arr) {
+        System.out.print(val + " ");
+    }
+
+    System.out.println();
+}
+
 public static void main(String args[]) {
     int arr[] = { 23, 56, 9, 103, 77 };
 
