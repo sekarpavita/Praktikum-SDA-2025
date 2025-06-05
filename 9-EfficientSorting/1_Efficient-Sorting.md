@@ -73,7 +73,7 @@ public class QuickSort {
 }
 ```
 
-Algoritma _partition_ akan kita lompati untuk sekarang, yang memiliki fungsi:
+Algoritma _partition_ memiliki fungsi:
 
 -   Menentukan `pivot`, dapat mengambil nilai arbitrer atau random,
 -   Meletakkan `pivot` ke posisinya dengan menukar posisi `pivot` dengan posisi yang seharusnya,
