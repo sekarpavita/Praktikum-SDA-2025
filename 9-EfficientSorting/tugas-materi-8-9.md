@@ -14,6 +14,7 @@ Implementasikan algoritma sorting berikut ini menggunakan struktur data yang ses
 
 ## Format Pengumpulan
 NIM_Nama_Sorting_JenisSorting.java
+
 NIM_Nama_Sorting.pdf
 
 ## Batas Pengumpulan
