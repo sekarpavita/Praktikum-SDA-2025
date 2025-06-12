@@ -5,7 +5,6 @@ import java.util.List;
 
 public class KruskalAlgorithm {
 
-    // kelas untuk merepresentasikan sebuah sisi (edge) dalam graf
     static class Edge {
         int source;
         int destination;
@@ -23,7 +22,6 @@ public class KruskalAlgorithm {
         }
     }
 
-    // kelas untuk merepresentasikan sebuah graf
     static class Graph {
         int vertices;
         List<Edge> allEdges;
