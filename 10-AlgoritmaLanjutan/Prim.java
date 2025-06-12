@@ -3,7 +3,6 @@ import java.util.PriorityQueue;
 
 public class PrimAlgorithm {
 
-    // kelas untuk merepresentasikan sebuah sisi (edge) dalam graf
     static class Edge {
         int destination;
         int weight;
@@ -14,11 +13,8 @@ public class PrimAlgorithm {
         }
     }
 
-    // kelas untuk merepresentasikan sebuah graf
     static class Graph {
         int vertices;
-        // Adjacency list untuk menyimpan graf dan ArrayList<Edge> untuk setiap vertex
-        // graph[i] akan berisi daftar sisi yang terhubung dari vertex i
         private java.util.ArrayList<Edge>[] adjacencylist;
 
         public Graph(int vertices) {
@@ -30,7 +26,6 @@ public class PrimAlgorithm {
         }
 
         public void addEdge(int source, int destination, int weight) {
-            // untuk graf tidak berarah, tambahkan sisi di kedua arah
             Edge edge = new Edge(destination, weight);
             adjacencylist[source].add(edge);
 
