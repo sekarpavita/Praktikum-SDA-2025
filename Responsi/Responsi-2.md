@@ -32,7 +32,7 @@ Total keseluruhan bobot nilai: 100
 
 ## Ketentuan Pengumpulan
 
-Tugas dikumpulkan selambat-lambatnya **xxxxx, xx Juni 2025 pukul 23.59 WIB.** Keterlambatan pengumpulan tidak akan diterima.
+Tugas dikumpulkan selambat-lambatnya **Senin, 30 Juni 2025 pukul 23.59 WIB.** Keterlambatan pengumpulan tidak akan diterima.
 
 Tugas dikumpulkan dalam bentuk **ZIP** dengan format
 
